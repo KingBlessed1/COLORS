@@ -1,0 +1,49 @@
+.colors{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.byName{
+    background-color: gray;
+    color: purple;
+    border: 2px solid aqua 
+}
+
+.byHEX{
+    background-color: #66aaee;
+    color: #f9cd00;
+    border: 2px solid #fff;
+}
+
+.byRGB{
+    background-color: rgb(255,77,25);
+    color: rgb(77,255,25);
+    border: 2px solid rgb(25,77,255)
+}
+
+.byHSL{
+    background-color: hsl(255,77%,25%);
+    color: hsl(77,44%,25%);
+    border: 2px solid hsl(25,77%,70%);
+}
+
+.transparency{
+    background-image: url(./Images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top left;
+    height: 40vh;
+}
+
+.transparency .box{
+    background-color: blue;
+    width: fit-content;
+    padding: 2rem;
+    color: white;
+    /* opacity: 0.1; */
+    backdrop-filter: blur (4px);
+}
+*{
+    border: 4px solid red
+}
